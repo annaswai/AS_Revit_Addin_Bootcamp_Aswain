@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>ArchSmarter_Addin_Template_2023_Module01_Skills - Command 1</Text>
+    <Description>Some description for ArchSmarter_Addin_Template_2023_Module01_Skills</Description>
+    <Assembly>ArchSmarter_Addin_Template_2023_Module01_Skills.dll</Assembly>
+    <FullClassName>ArchSmarter_Addin_Template_2023_Module01_Skills.Command1</FullClassName>
+    <ClientId>68d40549-4727-45dd-a500-c648dfa10d2b</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>ArchSmarter_Addin_Template_2023_Module01_Skills - Command 2</Text>
+    <Description>Some description for ArchSmarter_Addin_Template_2023_Module01_Skills</Description>
+    <Assembly>ArchSmarter_Addin_Template_2023_Module01_Skills.dll</Assembly>
+    <FullClassName>ArchSmarter_Addin_Template_2023_Module01_Skills.Command2</FullClassName>
+    <ClientId>63214188-be81-49d4-bbe7-5f8e79b16063</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>ArchSmarter_Addin_Template_2023_Module01_Skills</Name>
+    <Assembly>ArchSmarter_Addin_Template_2023_Module01_Skills.dll</Assembly>
+    <FullClassName>ArchSmarter_Addin_Template_2023_Module01_Skills.App</FullClassName>
+    <ClientId>f7cdb203-962e-421d-9674-570dbe7d0b96</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
