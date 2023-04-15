@@ -137,7 +137,8 @@ namespace ArchSmarter_Addin_Template_2023_Module01_Skills
             foreach (string currentString  in list1)
             {
                 //Do something with currentString
-                letterCounter = letterCounter + currentString.Length;
+                //letterCounter = letterCounter + currentString.Length;
+                letterCounter += currentString.Length;
 
             }
 
