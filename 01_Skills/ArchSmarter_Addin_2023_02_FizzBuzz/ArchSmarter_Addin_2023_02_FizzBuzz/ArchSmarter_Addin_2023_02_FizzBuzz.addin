@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>ArchSmarter_Addin_2023_02_FizzBuzz - Command 1</Text>
+    <Description>Some description for ArchSmarter_Addin_2023_02_FizzBuzz</Description>
+    <Assembly>ArchSmarter_Addin_2023_02_FizzBuzz.dll</Assembly>
+    <FullClassName>ArchSmarter_Addin_2023_02_FizzBuzz.Command1</FullClassName>
+    <ClientId>230486f9-70f4-4b9d-ba50-0f7c2feb05d9</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>ArchSmarter_Addin_2023_02_FizzBuzz - Command 2</Text>
+    <Description>Some description for ArchSmarter_Addin_2023_02_FizzBuzz</Description>
+    <Assembly>ArchSmarter_Addin_2023_02_FizzBuzz.dll</Assembly>
+    <FullClassName>ArchSmarter_Addin_2023_02_FizzBuzz.Command2</FullClassName>
+    <ClientId>c1987b2a-de77-4afd-8b23-35068b9583a0</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>ArchSmarter_Addin_2023_02_FizzBuzz</Name>
+    <Assembly>ArchSmarter_Addin_2023_02_FizzBuzz.dll</Assembly>
+    <FullClassName>ArchSmarter_Addin_2023_02_FizzBuzz.App</FullClassName>
+    <ClientId>629b131c-cff0-42bc-8845-37cf10c543bd</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>

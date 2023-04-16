@@ -2,6 +2,7 @@
 using Autodesk.Revit.ApplicationServices;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
+using Autodesk.Revit.DB.Architecture;
 using Autodesk.Revit.DB.Events;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
@@ -132,7 +133,7 @@ namespace ArchSmarter_Addin_Template_2023_Module01_Skills
             // (you need to use the {} when making the list, not () even though thouse are auto added)
             List<int> list2 = new List<int> { 1, 2, 3, 4, 5 };
 
-            // loop through a list using a For Loop
+            // loop through a list using a ForEach Loop
             int letterCounter = 0;
             foreach (string currentString  in list1)
             {
@@ -141,6 +142,87 @@ namespace ArchSmarter_Addin_Template_2023_Module01_Skills
                 letterCounter += currentString.Length;
 
             }
+
+            // loop through a range of numbers
+            int numberCount = 0;
+            int counter = 100;
+            for (int i = 0; i <= counter; i++)
+            {
+                numberCount += i;
+                //do something
+            }
+
+            TaskDialog.Show( "Number Counter", "The number count is " + numberCount.ToString() );
+
+
+            //create a trasaction to lock the model
+            Transaction t = new Transaction(doc);
+            t.Start("Doing somthing in Revit");
+
+            //create a floor level - show in Revit API (www.revitapidocs.com)
+            // elevation value is in decimal feet regardless of the model's units
+            double elevation = 100;
+            Level newLevel = Level.Create(doc, elevation);
+            newLevel.Name = "My New Level";
+
+            // create a floor plan view - show in Revit API
+            // but first need to get a floor plan View Family Type
+            // by creating a filtered element collector
+            FilteredElementCollector collector1 = new FilteredElementCollector(doc);
+            collector1.OfClass(typeof(ViewFamilyType));
+            
+            
+            // Get floor plan view family type
+            ViewFamilyType floorPlanVTF = null;
+            foreach (ViewFamilyType curVFT in collector1)
+            {
+                if (curVFT.ViewFamily == ViewFamily.FloorPlan)
+                {
+                    floorPlanVTF = curVFT;
+                    break;
+                }
+            }
+
+            // create a view by specifying the document, view family type, and level
+            ViewPlan newPlan = ViewPlan.Create(doc, floorPlanVTF.Id, newLevel.Id);
+            newPlan.Name = "My New Floor Plan";
+
+            // Get ceiling plan view family type
+            ViewFamilyType ceilingPlanVTF = null;
+            foreach (ViewFamilyType curVFT in collector1)
+            {
+                if (curVFT.ViewFamily == ViewFamily.CeilingPlan)
+                {
+                    ceilingPlanVTF = curVFT;
+                    break;
+                }
+            }
+
+            //Create a ceiling plan using the ceiling plan view family type
+            ViewPlan newCeilingPlan = ViewPlan.Create(doc, ceilingPlanVTF.Id, newLevel.Id);
+            newCeilingPlan.Name = "My New Ceiling Plan";
+
+            // Create a sheet
+            // but first need to get the title block
+            // by creating a filtered element collector
+            FilteredElementCollector collector2 = new FilteredElementCollector(doc);
+            collector2.OfCategory(BuiltInCategory.OST_TitleBlocks); //grabs all elements in the model that have a TB
+
+            // create a Sheet
+            ViewSheet newSheet = ViewSheet.Create(doc, collector2.FirstElementId());
+                newSheet.Name = "My New Sheet";
+                newSheet.SheetNumber = "A-101";
+
+            // add a view to a sheet using a Viewport - Show in API
+            // first create a point
+            XYZ insPoint = new XYZ(1, 0.5, 0);
+
+            Viewport newViewport = Viewport.Create(doc, newSheet.Id, newPlan.Id, insPoint);
+        
+
+
+            t.Commit();
+            t.Dispose();
 
             return Result.Succeeded;
         }
