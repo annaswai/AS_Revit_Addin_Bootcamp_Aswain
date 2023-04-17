@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Command">
-    <Text>ArchSmarter_Addin_2023_02_FizzBuzz - Command 1</Text>
+    <Text>ArchSmarter_Addin_2023_02_FizzBuzz - Module01 Challenge</Text>
     <Description>Some description for ArchSmarter_Addin_2023_02_FizzBuzz</Description>
     <Assembly>ArchSmarter_Addin_2023_02_FizzBuzz.dll</Assembly>
-    <FullClassName>ArchSmarter_Addin_2023_02_FizzBuzz.Command1</FullClassName>
+    <FullClassName>ArchSmarter_Addin_2023_02_FizzBuzz.Module01Challenge</FullClassName>
     <ClientId>230486f9-70f4-4b9d-ba50-0f7c2feb05d9</ClientId>
     <VendorId>com.YOUR COMPANY NAME</VendorId>
     <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>

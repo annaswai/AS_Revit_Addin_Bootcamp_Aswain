@@ -14,7 +14,7 @@ using System.Reflection;
 namespace ArchSmarter_Addin_2023_02_FizzBuzz
 {
     [Transaction(TransactionMode.Manual)]
-    public class Command1 : IExternalCommand
+    public class Module01Challenge : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -27,7 +27,7 @@ namespace ArchSmarter_Addin_2023_02_FizzBuzz
             // Your code goes here
 
             int numberVariable = 250;   // 1. Declare a number variable and set it to 250
-            // int levelNumber = 0; (created in the loop instead)  // 2. Declare a starting elevation (levelNumber) variable and set it to 0
+            // int levelNumber = 0; (created in the for loop instead)  // 2. Declare a starting elevation (levelNumber) variable and set it to 0
             int floorHeight = 15;       // 3. Declare a floor height variable and set it to 15 
 
             //create a trasaction to lock the model
@@ -59,19 +59,40 @@ namespace ArchSmarter_Addin_2023_02_FizzBuzz
 
                     // 9.1 "...create a sheet and name it "FIZZBUZZ_#"
 
-
                     //Creating Sheet
                     ViewSheet newSheet = ViewSheet.Create(doc, collectorSheets.FirstElementId());
                     newSheet.Name = "FIZZBUZZ_" + levelNumber.ToString();
                     newSheet.SheetNumber = "A-" + levelNumber.ToString();
+
+                    // Get floor plan view family type
+                    ViewFamilyType floorPlanVTF = null;
+                    foreach (ViewFamilyType curVFT in collectorFloorPlan)
+                    {
+                        if (curVFT.ViewFamily == ViewFamily.FloorPlan)
+                        {
+                            floorPlanVTF = curVFT;
+                            break;
+                        }
+                    }
+
+                    // BONUS "In addition to creating a sheet, create a floor plan for each FIZZBUZZ.
+                    // Next, add the floor plan to the sheet by creating a Viewport element."
+                    // create a view by specifying the document, view family type, and level
+                    ViewPlan newPlanFB = ViewPlan.Create(doc, floorPlanVTF.Id, newLevel.Id);
+                    newPlanFB.Name = "FIZZBUZZ_" + levelNumber.ToString();
+
+                    // add a view to a sheet using a Viewport - Show in API
+                    // first create a point
+                    XYZ insPoint = new XYZ(1, 1, 0);
+
+                    Viewport newViewport = Viewport.Create(doc, newSheet.Id, newPlanFB.Id, insPoint);
+
                 }
-                
+
                 // 7. If the number is divisible by 3..."
                 else if (levelNumber % 3 == 0)
                 {
                     // "...create a floor plan and name it "FIZZ_#"
-
-                   
 
                     // Get floor plan view family type
                     ViewFamilyType floorPlanVTF = null;
@@ -93,7 +114,6 @@ namespace ArchSmarter_Addin_2023_02_FizzBuzz
                 else if (levelNumber % 5 == 0)
                 {
                     // "...create a ceiling plan and name it "BUZZ_#"
-
                
                     // Get ceiling plan view family type
                     ViewFamilyType ceilingPlanVTF = null;
