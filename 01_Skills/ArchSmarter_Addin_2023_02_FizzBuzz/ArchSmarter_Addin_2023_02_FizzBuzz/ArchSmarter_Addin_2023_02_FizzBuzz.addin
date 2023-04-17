@@ -9,6 +9,15 @@
     <VendorId>com.YOUR COMPANY NAME</VendorId>
     <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
   </AddIn>
+    <AddIn Type="Command">
+	    <Text>ArchSmarter_Addin_2023_02_FizzBuzz - Command 1</Text>
+	    <Description>Some description for ArchSmarter_Addin_2023_02_FizzBuzz</Description>
+	    <Assembly>ArchSmarter_Addin_2023_02_FizzBuzz.dll</Assembly>
+	    <FullClassName>ArchSmarter_Addin_2023_02_FizzBuzz.Command1</FullClassName>
+	    <ClientId>3F6EA894-3822-4DFA-832A-83184783E352</ClientId>
+	    <VendorId>com.YOUR COMPANY NAME</VendorId>
+	    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+    </AddIn>
   <AddIn Type="Command">
     <Text>ArchSmarter_Addin_2023_02_FizzBuzz - Command 2</Text>
     <Description>Some description for ArchSmarter_Addin_2023_02_FizzBuzz</Description>

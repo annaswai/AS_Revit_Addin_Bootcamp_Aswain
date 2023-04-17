@@ -14,7 +14,7 @@ using System.Reflection;
 namespace ArchSmarter_Addin_2023_02_FizzBuzz
 {
     [Transaction(TransactionMode.Manual)]
-    public class Command2 : IExternalCommand
+    public class Command1 : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -25,7 +25,7 @@ namespace ArchSmarter_Addin_2023_02_FizzBuzz
             Document doc = uiapp.ActiveUIDocument.Document;
 
             // Your code goes here
-            TaskDialog.Show("Test", "This Command 2");
+            TaskDialog.Show("Test", "This Command 1");
 
             return Result.Succeeded;
         }
