@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>2023_CSV Bonus Lesson - Command 1</Text>
+    <Description>Some description for 2023_CSV Bonus Lesson</Description>
+    <Assembly>2023_CSV Bonus Lesson.dll</Assembly>
+    <FullClassName>_2023_CSV_Bonus_Lesson.Command1</FullClassName>
+    <ClientId>3e074988-3b33-490f-898f-f3c27bff2bfa</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>2023_CSV Bonus Lesson - Command 2</Text>
+    <Description>Some description for 2023_CSV Bonus Lesson</Description>
+    <Assembly>2023_CSV Bonus Lesson.dll</Assembly>
+    <FullClassName>_2023_CSV_Bonus_Lesson.Command2</FullClassName>
+    <ClientId>ab6a01f1-615e-4168-a735-0dbe3f4c36ee</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>2023_CSV Bonus Lesson</Name>
+    <Assembly>2023_CSV Bonus Lesson.dll</Assembly>
+    <FullClassName>_2023_CSV_Bonus_Lesson.App</FullClassName>
+    <ClientId>f0be4a85-85f2-44fb-aa4b-12c01ac20f41</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
