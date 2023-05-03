@@ -50,7 +50,35 @@ namespace _2023_CSV_Bonus_Lesson
 
             // 7. loop through level data
             int counter = 0;
-            foreach (string[] current )
+            foreach (string[] currentLevelData in levelData)
+            {
+                //8. create height variables
+                double heightFeet = 0;
+                double heightMeters = 0;
+
+                //9. get height and convert from string to double
+                bool convertFeet = double.TryParse(currentLevelData[1], out heightFeet);
+                bool convertMeters = double.TryParse(currentLevelData[2], out heightMeters);
+
+                //10. if using metric, convert meters to feet
+                double heightMetersConvert = heightMeters * 3.28084;
+                double heightMetersConvert2 = UnitUtils.ConvertToInternalUnits(heightMeters, UnitTypeId.Meters);
+
+                //11. Create level and rename
+                Level currentLevel = Level.Create(doc, heightFeet);
+                currentLevel.Name = currentLevelData[0];
+
+                //12. incement counter
+                counter++;
+
+            }
+
+            //13. commit and dispose tranaction
+            t.Commit();
+            t.Dispose();   
+
+            //14. tell user what happended
+            TaskDialog.Show("Complete", "Created " + counter.ToString() + " Levels.");
 
             return Result.Succeeded;
         }

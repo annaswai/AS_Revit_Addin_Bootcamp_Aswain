@@ -1,0 +1,8 @@
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\bin\Debug\2023_CSV Bonus Lesson.dll
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\bin\Debug\2023_CSV Bonus Lesson.pdb
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\obj\Debug\2023_CSV Bonus Lesson.csproj.AssemblyReference.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\obj\Debug\_2023_CSV_Bonus_Lesson.Properties.Resources.resources
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\obj\Debug\2023_CSV Bonus Lesson.csproj.GenerateResource.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\obj\Debug\2023_CSV Bonus Lesson.csproj.CoreCompileInputs.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\obj\Debug\2023_CSV Bonus Lesson.dll
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\01_Skills\2023_CSV Bonus Lesson\2023_CSV Bonus Lesson\obj\Debug\2023_CSV Bonus Lesson.pdb
