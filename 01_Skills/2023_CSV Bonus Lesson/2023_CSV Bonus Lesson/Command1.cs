@@ -26,7 +26,7 @@ namespace _2023_CSV_Bonus_Lesson
 
             // Your code goes here
             // 1. declare variables
-            string levelPath = "C:\\GitHub_Repositories\\ArchSmarter\\ArchSmarter_Revit_Addin_Bootcamp\\01_Skills\\Referance Files\\Session_03_Challenge.xlsx";
+            string levelPath = "C:\\GitHub_Repositories\\ArchSmarter\\ArchSmarter_Revit_Addin_Bootcamp\\01_Skills\\Referance Files\\RAB_Bonus_Levels.csv";
 
             // 2. Create a list of string arrays for CSV data
             List<string[]> levelData = new List<string[]>();
