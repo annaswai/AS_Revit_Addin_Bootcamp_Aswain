@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Command">
-    <Text>23-0405_Creating Model Elements_Skills_2023 - Command 1</Text>
-    <Description>Some description for 23-0405_Creating Model Elements_Skills_2023</Description>
-    <Assembly>23-0405_Creating Model Elements_Skills_2023.dll</Assembly>
-    <FullClassName>_23_0405_Creating_Model_Elements_Skills_2023.Command1</FullClassName>
+    <Text>23-0504_Creating Model Elements_Skills_2023 - Command 1</Text>
+    <Description>Some description for 23-0504_Creating Model Elements_Skills_2023</Description>
+    <Assembly>23-0504_Creating Model Elements_Skills_2023.dll</Assembly>
+    <FullClassName>_23_0504_Creating_Model_Elements_Skills_2023.Command1</FullClassName>
     <ClientId>faaad4cb-3e5b-4cff-bbf3-c472dbea23b6</ClientId>
     <VendorId>com.YOUR COMPANY NAME</VendorId>
     <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
   </AddIn>
   <AddIn Type="Command">
-    <Text>23-0405_Creating Model Elements_Skills_2023 - Command 2</Text>
-    <Description>Some description for 23-0405_Creating Model Elements_Skills_2023</Description>
-    <Assembly>23-0405_Creating Model Elements_Skills_2023.dll</Assembly>
-    <FullClassName>_23_0405_Creating_Model_Elements_Skills_2023.Command2</FullClassName>
+    <Text>23-0504_Creating Model Elements_Skills_2023 - Command 2</Text>
+    <Description>Some description for 23-0504_Creating Model Elements_Skills_2023</Description>
+    <Assembly>23-0504_Creating Model Elements_Skills_2023.dll</Assembly>
+    <FullClassName>_23_0504_Creating_Model_Elements_Skills_2023.Command2</FullClassName>
     <ClientId>63d96412-235f-4006-a7e3-246be06b5c6c</ClientId>
     <VendorId>com.YOUR COMPANY NAME</VendorId>
     <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
   </AddIn>
   <AddIn Type="Application">
-    <Name>23-0405_Creating Model Elements_Skills_2023</Name>
-    <Assembly>23-0405_Creating Model Elements_Skills_2023.dll</Assembly>
-    <FullClassName>_23_0405_Creating_Model_Elements_Skills_2023.App</FullClassName>
+    <Name>23-0504_Creating Model Elements_Skills_2023</Name>
+    <Assembly>23-0504_Creating Model Elements_Skills_2023.dll</Assembly>
+    <FullClassName>_23_0504_Creating_Model_Elements_Skills_2023.App</FullClassName>
     <ClientId>1da4d17a-1553-43f1-821f-0e4227f2fc1a</ClientId>
     <VendorId>com.YOUR COMPANY NAME</VendorId>
     <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>

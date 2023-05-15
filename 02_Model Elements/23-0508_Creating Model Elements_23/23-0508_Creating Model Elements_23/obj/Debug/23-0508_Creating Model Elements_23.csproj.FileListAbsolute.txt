@@ -1,0 +1,8 @@
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\bin\Debug\23-0508_Creating Model Elements_23.dll
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\bin\Debug\23-0508_Creating Model Elements_23.pdb
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\obj\Debug\23-0508_Creating Model Elements_23.csproj.AssemblyReference.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\obj\Debug\_23_0508_Creating_Model_Elements_23.Properties.Resources.resources
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\obj\Debug\23-0508_Creating Model Elements_23.csproj.GenerateResource.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\obj\Debug\23-0508_Creating Model Elements_23.csproj.CoreCompileInputs.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\obj\Debug\23-0508_Creating Model Elements_23.dll
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\02_Model Elements\23-0508_Creating Model Elements_23\23-0508_Creating Model Elements_23\obj\Debug\23-0508_Creating Model Elements_23.pdb

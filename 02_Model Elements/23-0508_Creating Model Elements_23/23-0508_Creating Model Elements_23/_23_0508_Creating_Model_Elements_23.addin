@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>23-0508_Creating Model Elements_23 - Command 1</Text>
+    <Description>Some description for 23-0508_Creating Model Elements_23</Description>
+    <Assembly>23-0508_Creating Model Elements_23.dll</Assembly>
+    <FullClassName>_23_0508_Creating_Model_Elements_23.Command1</FullClassName>
+    <ClientId>85c88925-73a6-432f-812d-ff0f6779d754</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>23-0508_Creating Model Elements_23 - Command 2</Text>
+    <Description>Some description for 23-0508_Creating Model Elements_23</Description>
+    <Assembly>23-0508_Creating Model Elements_23.dll</Assembly>
+    <FullClassName>_23_0508_Creating_Model_Elements_23.Command2</FullClassName>
+    <ClientId>833fd099-19b2-479c-9e8d-cec96ce6fc12</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>23-0508_Creating Model Elements_23</Name>
+    <Assembly>23-0508_Creating Model Elements_23.dll</Assembly>
+    <FullClassName>_23_0508_Creating_Model_Elements_23.App</FullClassName>
+    <ClientId>0ea991c6-b3d1-4d68-ad29-a838ba9e1b1f</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>

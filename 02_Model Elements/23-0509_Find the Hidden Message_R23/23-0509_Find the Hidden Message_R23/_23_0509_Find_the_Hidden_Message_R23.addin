@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Find the Hidden Message - Module02Challenge</Text>
+    <Description>Some description for 23-0509_Find the Hidden Message_R23</Description>
+    <Assembly>23-0509_Find the Hidden Message_R23.dll</Assembly>
+    <FullClassName>_23_0509_Find_the_Hidden_Message_R23.Module02Challenge</FullClassName>
+    <ClientId>2881EB36-B055-4D99-B4D9-1D0390851FDF</ClientId>
+    <VendorId>com.Dattner Architects</VendorId>
+    <VendorDescription>Dattner Architects, dattner.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>23-0509_Find the Hidden Message_R23</Name>
+    <Assembly>23-0509_Find the Hidden Message_R23.dll</Assembly>
+    <FullClassName>_23_0509_Find_the_Hidden_Message_R23.App</FullClassName>
+    <ClientId>62cb4c15-7050-4c5c-b6ac-38c27507a183</ClientId>
+    <VendorId>com.Dattner Architects</VendorId>
+    <VendorDescription>Dattner Architects, Dattner.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-0509_Find the Hidden Message_R23", "23-0509_Find the Hidden Message_R23\23-0509_Find the Hidden Message_R23.csproj", "{C0A03CD7-C91C-412E-A1C6-EEBDDECB6CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A03CD7-C91C-412E-A1C6-EEBDDECB6CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A03CD7-C91C-412E-A1C6-EEBDDECB6CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A03CD7-C91C-412E-A1C6-EEBDDECB6CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A03CD7-C91C-412E-A1C6-EEBDDECB6CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02D03DCC-24EF-4700-BA8C-0245F4C18584}
+	EndGlobalSection
+EndGlobal

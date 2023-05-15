@@ -70,6 +70,25 @@ namespace _23_0405_Creating_Model_Elements_Skills_2023
                 Debug.Print(curStyle.Name);
             }
 
+            // 5. Create transaction with using statment (makes temperatory code)
+            using (Transaction t = new Transaction(doc))
+            {
+                // 4. create wall
+                t.Start("create Revit elements");
+                Level newLevel = Level.Create(doc, 20);
+                Curve curCurve1 = modelCurves[0].GeometryCurve;
+
+                Wall.Create(doc, curCurve1, newLevel.Id, false);
+
+                FilteredElementCollector wallTypes = new FilteredElementCollector(doc);
+                wallTypes.OfClass(typeof(WallType));
+
+                Curve curCurve2 = modelCurves[1].GeometryCurve;
+                Wall.Create(doc, curCurve2, wallTypes.FirstElementId(), newLevel.Id, 20, 0, false, false);
+            }
+
+           
+
             return Result.Succeeded;
         }
 
