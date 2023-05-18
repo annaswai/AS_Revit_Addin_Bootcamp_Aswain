@@ -58,35 +58,43 @@ namespace _23_0509_Find_the_Hidden_Message_R23
             }
             TaskDialog.Show("Selection", "I selected " + modelCurves.Count.ToString() + " Curves");
 
+
+            // loop through the curve elements and get data
+            foreach(CurveElement currentCurve in modelCurves)
+            {
+                Curve curve = currentCurve.GeometryCurve;
+                XYZ startPoint = curve.GetEndPoint(0);
+                XYZ endPoint = curve.GetEndPoint(1);
+
+                GraphicsStyle curStyle = currentCurve.LineStyle as GraphicsStyle;
+
+                Debug.Print(curStyle.Name);
+            }
+
             // 6. get system types
             FilteredElementCollector systemCollector = new FilteredElementCollector(doc);
             systemCollector.OfClass(typeof(MEPSystemType));
 
-
-            //Switch statment
-            switch (modelCurves.)
-            {
-                case "A-GLAZ":
-                    
-                    break;
-            }
+           
+            
 
             return Result.Succeeded;
         }
 
-        internal CurveElement GetCurveData(Document doc, CurveElement currentCurve)
-        {
-            Curve curve = currentCurve.GeometryCurve;
-            XYZ startPoint = curve.GetEndPoint(0);
-            XYZ endPoint = curve.GetEndPoint(1);
+       //Get Curve Data fuction
+        /*    internal CurveElement GetCurveData(Document doc, CurveElement currentCurve)
+            {
+                Curve curve = currentCurve.GeometryCurve;
+                XYZ startPoint = curve.GetEndPoint(0);
+                XYZ endPoint = curve.GetEndPoint(1);
 
-            GraphicsStyle curStyle = currentCurve.LineStyle as GraphicsStyle;
+                GraphicsStyle curStyle = currentCurve.LineStyle as GraphicsStyle;
 
-            Debug.Print(curStyle.Name);
-            return null;
-        }
-
-
+                Debug.Print(curStyle.Name);
+                return null;
+            }
+*/
+        
         public static String GetMethod()
         {
             var method = MethodBase.GetCurrentMethod().DeclaringType?.FullName;
