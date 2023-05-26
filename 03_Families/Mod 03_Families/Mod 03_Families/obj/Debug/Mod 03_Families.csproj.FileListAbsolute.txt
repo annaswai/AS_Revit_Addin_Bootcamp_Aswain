@@ -1,0 +1,8 @@
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\bin\Debug\Mod 03_Families.dll
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\bin\Debug\Mod 03_Families.pdb
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\obj\Debug\Mod 03_Families.csproj.AssemblyReference.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\obj\Debug\Mod_03_Families.Properties.Resources.resources
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\obj\Debug\Mod 03_Families.csproj.GenerateResource.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\obj\Debug\Mod 03_Families.csproj.CoreCompileInputs.cache
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\obj\Debug\Mod 03_Families.dll
+C:\GitHub_Repositories\ArchSmarter\ArchSmarter_Revit_Addin_Bootcamp\03_Families\Mod 03_Families\Mod 03_Families\obj\Debug\Mod 03_Families.pdb

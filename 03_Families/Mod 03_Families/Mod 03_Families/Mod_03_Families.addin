@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Mod 03_Families - Command 1</Text>
+    <Description>Some description for Mod 03_Families</Description>
+    <Assembly>Mod 03_Families.dll</Assembly>
+    <FullClassName>Mod_03_Families.Command1</FullClassName>
+    <ClientId>738756c0-2492-46eb-b0e9-9a29d845038a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Mod 03_Families - Command 2</Text>
+    <Description>Some description for Mod 03_Families</Description>
+    <Assembly>Mod 03_Families.dll</Assembly>
+    <FullClassName>Mod_03_Families.Command2</FullClassName>
+    <ClientId>a8f6ea65-6441-4988-a0d2-6b154292a7ef</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Mod 03_Families</Name>
+    <Assembly>Mod 03_Families.dll</Assembly>
+    <FullClassName>Mod_03_Families.App</FullClassName>
+    <ClientId>a325dbc9-0723-4efd-9127-a78b35a33b29</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
