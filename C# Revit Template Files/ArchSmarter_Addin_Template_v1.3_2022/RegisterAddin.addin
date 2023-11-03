@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>$projectname$ - Command 1</Text>
+    <Description>Some description for $projectname$</Description>
+    <Assembly>$projectname$.dll</Assembly>
+    <FullClassName>$safeprojectname$.Command1</FullClassName>
+    <ClientId>$guid1$</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>$projectname$ - Command 2</Text>
+    <Description>Some description for $projectname$</Description>
+    <Assembly>$projectname$.dll</Assembly>
+    <FullClassName>$safeprojectname$.Command2</FullClassName>
+    <ClientId>$guid2$</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>$projectname$</Name>
+    <Assembly>$projectname$.dll</Assembly>
+    <FullClassName>$safeprojectname$.App</FullClassName>
+    <ClientId>$guid3$</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>

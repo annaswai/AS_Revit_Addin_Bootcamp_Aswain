@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ArchSmarter_Addin_Template_2023</Name>
+    <Description>ArchSmarter Revit Add-in Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+	<LanguageTag>C#</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>extension</ProjectTypeTag>
+    <ProjectTypeTag>desktop</ProjectTypeTag>
+    <ProjectTypeTag>Revit</ProjectTypeTag>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ArchSmarter_Addin_Template_2023</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ArchSmarter_Addin_Template_2023.csproj" File="ArchSmarter_Addin_Template_2023.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Command1.cs">Command1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Command2.cs">Command2.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.addin">RegisterAddin.addin</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Blue_16.png">Blue_16.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Blue_32.png">Blue_32.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Green_16.png">Green_16.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Green_32.png">Green_32.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Red_16.png">Red_16.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Red_32.png">Red_32.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Yellow_16.png">Yellow_16.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Yellow_32.png">Yellow_32.png</ProjectItem>
+      </Folder>
+      <Folder Name="Utils" TargetFolderName="Utils">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ButtonDataClass.cs">ButtonDataClass.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CommandAvailability.cs">CommandAvailability.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Utils.cs">Utils.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
